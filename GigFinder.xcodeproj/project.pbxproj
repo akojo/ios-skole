@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D941B5215738C8F003D1FDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5115738C8F003D1FDA /* UIKit.framework */; };
+		1D941B5415738C8F003D1FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5315738C8F003D1FDA /* Foundation.framework */; };
+		1D941B5615738C8F003D1FDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5515738C8F003D1FDA /* CoreGraphics.framework */; };
+		1D941B5C15738C8F003D1FDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B5A15738C8F003D1FDA /* InfoPlist.strings */; };
+		1D941B5E15738C8F003D1FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B5D15738C8F003D1FDA /* main.m */; };
+		1D941B6215738C8F003D1FDA /* GigFinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B6115738C8F003D1FDA /* GigFinderAppDelegate.m */; };
+		1D941B6515738C8F003D1FDA /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B6315738C8F003D1FDA /* iPhone.storyboard */; };
+		1D941B6815738C8F003D1FDA /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B6615738C8F003D1FDA /* iPad.storyboard */; };
+		1D941B6B15738C8F003D1FDA /* GigFinderMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B6A15738C8F003D1FDA /* GigFinderMasterViewController.m */; };
+		1D941B6E15738C8F003D1FDA /* GigFinderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B6D15738C8F003D1FDA /* GigFinderDetailViewController.m */; };
+		1D941B7615738C8F003D1FDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B7515738C8F003D1FDA /* SenTestingKit.framework */; };
+		1D941B7715738C8F003D1FDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5115738C8F003D1FDA /* UIKit.framework */; };
+		1D941B7815738C8F003D1FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5315738C8F003D1FDA /* Foundation.framework */; };
+		1D941B8015738C8F003D1FDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B7E15738C8F003D1FDA /* InfoPlist.strings */; };
+		1D941B8315738C8F003D1FDA /* GigFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B8215738C8F003D1FDA /* GigFinderTests.m */; };
+		1D941B9215738E02003D1FDA /* appIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9115738E02003D1FDA /* appIcon114.png */; };
+		1D941B9415738E2F003D1FDA /* appIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9315738E2F003D1FDA /* appIcon57.png */; };
+		1D941B9615738E34003D1FDA /* appIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9515738E34003D1FDA /* appIcon72.png */; };
+		1D941B9815738E3A003D1FDA /* appIcon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9715738E3A003D1FDA /* appIcon144.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D941B7915738C8F003D1FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D941B4415738C8F003D1FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D941B4C15738C8F003D1FDA;
+			remoteInfo = GigFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D941B4D15738C8F003D1FDA /* GigFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GigFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D941B5115738C8F003D1FDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D941B5315738C8F003D1FDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D941B5515738C8F003D1FDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D941B5915738C8F003D1FDA /* GigFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GigFinder-Info.plist"; sourceTree = "<group>"; };
+		1D941B5B15738C8F003D1FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D941B5D15738C8F003D1FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D941B5F15738C8F003D1FDA /* GigFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GigFinder-Prefix.pch"; sourceTree = "<group>"; };
+		1D941B6015738C8F003D1FDA /* GigFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GigFinderAppDelegate.h; sourceTree = "<group>"; };
+		1D941B6115738C8F003D1FDA /* GigFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigFinderAppDelegate.m; sourceTree = "<group>"; };
+		1D941B6415738C8F003D1FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		1D941B6715738C8F003D1FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		1D941B6915738C8F003D1FDA /* GigFinderMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GigFinderMasterViewController.h; sourceTree = "<group>"; };
+		1D941B6A15738C8F003D1FDA /* GigFinderMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigFinderMasterViewController.m; sourceTree = "<group>"; };
+		1D941B6C15738C8F003D1FDA /* GigFinderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GigFinderDetailViewController.h; sourceTree = "<group>"; };
+		1D941B6D15738C8F003D1FDA /* GigFinderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigFinderDetailViewController.m; sourceTree = "<group>"; };
+		1D941B7415738C8F003D1FDA /* GigFinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GigFinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D941B7515738C8F003D1FDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D941B7D15738C8F003D1FDA /* GigFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GigFinderTests-Info.plist"; sourceTree = "<group>"; };
+		1D941B7F15738C8F003D1FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D941B8115738C8F003D1FDA /* GigFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GigFinderTests.h; sourceTree = "<group>"; };
+		1D941B8215738C8F003D1FDA /* GigFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigFinderTests.m; sourceTree = "<group>"; };
+		1D941B9115738E02003D1FDA /* appIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon114.png; sourceTree = "<group>"; };
+		1D941B9315738E2F003D1FDA /* appIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon57.png; sourceTree = "<group>"; };
+		1D941B9515738E34003D1FDA /* appIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon72.png; sourceTree = "<group>"; };
+		1D941B9715738E3A003D1FDA /* appIcon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon144.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D941B4A15738C8F003D1FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B5215738C8F003D1FDA /* UIKit.framework in Frameworks */,
+				1D941B5415738C8F003D1FDA /* Foundation.framework in Frameworks */,
+				1D941B5615738C8F003D1FDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D941B7015738C8F003D1FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B7615738C8F003D1FDA /* SenTestingKit.framework in Frameworks */,
+				1D941B7715738C8F003D1FDA /* UIKit.framework in Frameworks */,
+				1D941B7815738C8F003D1FDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D941B4215738C8F003D1FDA = {
+			isa = PBXGroup;
+			children = (
+				1D941B9715738E3A003D1FDA /* appIcon144.png */,
+				1D941B9515738E34003D1FDA /* appIcon72.png */,
+				1D941B9315738E2F003D1FDA /* appIcon57.png */,
+				1D941B9115738E02003D1FDA /* appIcon114.png */,
+				1D941B5715738C8F003D1FDA /* GigFinder */,
+				1D941B7B15738C8F003D1FDA /* GigFinderTests */,
+				1D941B5015738C8F003D1FDA /* Frameworks */,
+				1D941B4E15738C8F003D1FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D941B4E15738C8F003D1FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B4D15738C8F003D1FDA /* GigFinder.app */,
+				1D941B7415738C8F003D1FDA /* GigFinderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D941B5015738C8F003D1FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B5115738C8F003D1FDA /* UIKit.framework */,
+				1D941B5315738C8F003D1FDA /* Foundation.framework */,
+				1D941B5515738C8F003D1FDA /* CoreGraphics.framework */,
+				1D941B7515738C8F003D1FDA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D941B5715738C8F003D1FDA /* GigFinder */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B6015738C8F003D1FDA /* GigFinderAppDelegate.h */,
+				1D941B6115738C8F003D1FDA /* GigFinderAppDelegate.m */,
+				1D941B6315738C8F003D1FDA /* iPhone.storyboard */,
+				1D941B6615738C8F003D1FDA /* iPad.storyboard */,
+				1D941B6915738C8F003D1FDA /* GigFinderMasterViewController.h */,
+				1D941B6A15738C8F003D1FDA /* GigFinderMasterViewController.m */,
+				1D941B6C15738C8F003D1FDA /* GigFinderDetailViewController.h */,
+				1D941B6D15738C8F003D1FDA /* GigFinderDetailViewController.m */,
+				1D941B5815738C8F003D1FDA /* Supporting Files */,
+			);
+			path = GigFinder;
+			sourceTree = "<group>";
+		};
+		1D941B5815738C8F003D1FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B5915738C8F003D1FDA /* GigFinder-Info.plist */,
+				1D941B5A15738C8F003D1FDA /* InfoPlist.strings */,
+				1D941B5D15738C8F003D1FDA /* main.m */,
+				1D941B5F15738C8F003D1FDA /* GigFinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D941B7B15738C8F003D1FDA /* GigFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B8115738C8F003D1FDA /* GigFinderTests.h */,
+				1D941B8215738C8F003D1FDA /* GigFinderTests.m */,
+				1D941B7C15738C8F003D1FDA /* Supporting Files */,
+			);
+			path = GigFinderTests;
+			sourceTree = "<group>";
+		};
+		1D941B7C15738C8F003D1FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D941B7D15738C8F003D1FDA /* GigFinderTests-Info.plist */,
+				1D941B7E15738C8F003D1FDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D941B4C15738C8F003D1FDA /* GigFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D941B8615738C8F003D1FDA /* Build configuration list for PBXNativeTarget "GigFinder" */;
+			buildPhases = (
+				1D941B4915738C8F003D1FDA /* Sources */,
+				1D941B4A15738C8F003D1FDA /* Frameworks */,
+				1D941B4B15738C8F003D1FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GigFinder;
+			productName = GigFinder;
+			productReference = 1D941B4D15738C8F003D1FDA /* GigFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D941B7315738C8F003D1FDA /* GigFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D941B8915738C8F003D1FDA /* Build configuration list for PBXNativeTarget "GigFinderTests" */;
+			buildPhases = (
+				1D941B6F15738C8F003D1FDA /* Sources */,
+				1D941B7015738C8F003D1FDA /* Frameworks */,
+				1D941B7115738C8F003D1FDA /* Resources */,
+				1D941B7215738C8F003D1FDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D941B7A15738C8F003D1FDA /* PBXTargetDependency */,
+			);
+			name = GigFinderTests;
+			productName = GigFinderTests;
+			productReference = 1D941B7415738C8F003D1FDA /* GigFinderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D941B4415738C8F003D1FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GigFinder;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Reaktor;
+			};
+			buildConfigurationList = 1D941B4715738C8F003D1FDA /* Build configuration list for PBXProject "GigFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D941B4215738C8F003D1FDA;
+			productRefGroup = 1D941B4E15738C8F003D1FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D941B4C15738C8F003D1FDA /* GigFinder */,
+				1D941B7315738C8F003D1FDA /* GigFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D941B4B15738C8F003D1FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B5C15738C8F003D1FDA /* InfoPlist.strings in Resources */,
+				1D941B6515738C8F003D1FDA /* iPhone.storyboard in Resources */,
+				1D941B6815738C8F003D1FDA /* iPad.storyboard in Resources */,
+				1D941B9215738E02003D1FDA /* appIcon114.png in Resources */,
+				1D941B9415738E2F003D1FDA /* appIcon57.png in Resources */,
+				1D941B9615738E34003D1FDA /* appIcon72.png in Resources */,
+				1D941B9815738E3A003D1FDA /* appIcon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D941B7115738C8F003D1FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B8015738C8F003D1FDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D941B7215738C8F003D1FDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D941B4915738C8F003D1FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B5E15738C8F003D1FDA /* main.m in Sources */,
+				1D941B6215738C8F003D1FDA /* GigFinderAppDelegate.m in Sources */,
+				1D941B6B15738C8F003D1FDA /* GigFinderMasterViewController.m in Sources */,
+				1D941B6E15738C8F003D1FDA /* GigFinderDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D941B6F15738C8F003D1FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D941B8315738C8F003D1FDA /* GigFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D941B7A15738C8F003D1FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D941B4C15738C8F003D1FDA /* GigFinder */;
+			targetProxy = 1D941B7915738C8F003D1FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D941B5A15738C8F003D1FDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D941B5B15738C8F003D1FDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D941B6315738C8F003D1FDA /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D941B6415738C8F003D1FDA /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1D941B6615738C8F003D1FDA /* iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D941B6715738C8F003D1FDA /* en */,
+			);
+			name = iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1D941B7E15738C8F003D1FDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D941B7F15738C8F003D1FDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D941B8415738C8F003D1FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D941B8515738C8F003D1FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D941B8715738C8F003D1FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
+				INFOPLIST_FILE = "GigFinder/GigFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D941B8815738C8F003D1FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
+				INFOPLIST_FILE = "GigFinder/GigFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D941B8A15738C8F003D1FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GigFinder.app/GigFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
+				INFOPLIST_FILE = "GigFinderTests/GigFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D941B8B15738C8F003D1FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GigFinder.app/GigFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
+				INFOPLIST_FILE = "GigFinderTests/GigFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D941B4715738C8F003D1FDA /* Build configuration list for PBXProject "GigFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D941B8415738C8F003D1FDA /* Debug */,
+				1D941B8515738C8F003D1FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D941B8615738C8F003D1FDA /* Build configuration list for PBXNativeTarget "GigFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D941B8715738C8F003D1FDA /* Debug */,
+				1D941B8815738C8F003D1FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D941B8915738C8F003D1FDA /* Build configuration list for PBXNativeTarget "GigFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D941B8A15738C8F003D1FDA /* Debug */,
+				1D941B8B15738C8F003D1FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D941B4415738C8F003D1FDA /* Project object */;
+}
