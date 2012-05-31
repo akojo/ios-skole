@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GigFinderDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface GigFinderDetailViewController : UITableViewController
 
 @property (strong, nonatomic) id detailItem;
-
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

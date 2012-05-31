@@ -10,7 +10,7 @@
 
 @class GigFinderDetailViewController;
 
-@interface GigFinderMasterViewController : UITableViewController
+@interface GigFinderMasterViewController : UITableViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) GigFinderDetailViewController *detailViewController;
 
