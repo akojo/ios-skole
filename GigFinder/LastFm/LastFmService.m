@@ -44,6 +44,25 @@
 - (void) getEventsWithLocation:(CLLocation *)location
                       callback:(void (^)(NSArray *events))callback
 {
+    id lat = [NSNumber numberWithFloat:location.coordinate.latitude];
+    id lon = [NSNumber numberWithFloat:location.coordinate.longitude];
+    NSURL *url = [self call:@"geo.getEvents"
+             withParameters:[NSDictionary
+                             dictionaryWithObjectsAndKeys:@"40", @"limit",
+                             [lat stringValue], @"lat",
+                             [lon stringValue], @"lon", nil]];
+
+    [self.connection
+     sendAsynchronousRequest:[NSURLRequest requestWithURL:url]
+     queue:[NSOperationQueue mainQueue]
+     completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+         id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+         NSArray *eventData = [json valueForKeyPath:@"events.event"];
+         NSArray *events = [eventData map:^id(id obj) {
+             return [LastFmEvent eventWithData:obj];
+         }];
+         callback(events);
+     }];
 }
 
 @end

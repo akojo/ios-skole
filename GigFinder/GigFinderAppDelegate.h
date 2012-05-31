@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CLLocationManagerDelegate.h>
 
-@interface GigFinderAppDelegate : UIResponder <UIApplicationDelegate>
+@class LastFmDataSource;
+
+@interface GigFinderAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
+{
+    LastFmDataSource *lastFmDataSource;
+    CLLocationManager *locationManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readonly, nonatomic) LastFmDataSource *lastFmDataSource;
 
 @end

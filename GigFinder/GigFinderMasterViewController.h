@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @class GigFinderDetailViewController;
+@class LastFmDataSource;
 
 @interface GigFinderMasterViewController : UITableViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) GigFinderDetailViewController *detailViewController;
+@property (nonatomic, retain) IBOutlet LastFmDataSource *dataSource;
 
 @end

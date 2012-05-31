@@ -7,12 +7,14 @@
 //
 
 #import "GigFinderMasterViewController.h"
-
 #import "GigFinderDetailViewController.h"
+#import "LastFmDataSource.h"
+#import "LastFmEvent.h"
 
 @implementation GigFinderMasterViewController
 
 @synthesize detailViewController = _detailViewController;
+@synthesize dataSource;
 
 - (void)awakeFromNib
 {
@@ -27,6 +29,9 @@
 {
     [super viewDidLoad];
     self.detailViewController = (GigFinderDetailViewController *)[self.splitViewController.viewControllers lastObject];
+    self.dataSource.tableView = self.tableView;
+    self.tableView.dataSource = self.dataSource;
+    self.title = NSLocalizedString(@"Gigs", @"");
 }
 
 - (void)viewDidUnload
