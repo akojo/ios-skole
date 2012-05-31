@@ -60,17 +60,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [self.detailViewController setEvent:[self.dataSource eventAtIndexPath:indexPath]];
+    [self.detailViewController reload];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    /*
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
-    }
-     */
+    NSIndexPath *senderPath = [self.tableView indexPathForCell:sender];
+    LastFmEvent *event = [self.dataSource eventAtIndexPath:senderPath];
+    [segue.destinationViewController setEvent:event];
 }
 
 @end

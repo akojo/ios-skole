@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GigFinderDetailViewController : UITableViewController
+@class LastFmEvent;
 
-@property (strong, nonatomic) id detailItem;
+@interface GigFinderDetailViewController : UITableViewController <UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *venueNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressStreetLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressCityLabel;
+@property (strong, nonatomic) LastFmEvent *event;
+
+- (void)reload;
 
 @end

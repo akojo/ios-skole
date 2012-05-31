@@ -96,7 +96,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DescriptionCell" id="vK6-y8-PDL">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DescriptionCell" id="vK6-y8-PDL" customClass="DescriptionViewCell">
                                 <rect key="frame" x="0.0" y="227" width="703" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -112,6 +112,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="webView" destination="e92-YR-JsG" id="iDC-lJ-vwR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -120,6 +123,13 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="addressCityLabel" destination="dei-dL-KoO" id="vwt-xC-NXF"/>
+                        <outlet property="addressStreetLabel" destination="oa6-Mk-3Ac" id="s0s-ZB-Huv"/>
+                        <outlet property="imageView" destination="J1G-I4-J9L" id="dLv-cP-02o"/>
+                        <outlet property="titleLabel" destination="ltJ-qC-DU2" id="jVp-0z-a47"/>
+                        <outlet property="venueNameLabel" destination="MHt-eL-mDB" id="66s-oe-bnP"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="567" y="238"/>
@@ -221,6 +231,12 @@
         <class className="LastFmDataSource" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LastFmDataSource.h"/>
         </class>
+        <class className="DescriptionViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescriptionViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
         <class className="EventCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EventCell.h"/>
             <relationships>
@@ -230,6 +246,13 @@
         </class>
         <class className="GigFinderDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GigFinderDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="addressCityLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="addressStreetLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="venueNameLabel" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="GigFinderMasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GigFinderMasterViewController.h"/>

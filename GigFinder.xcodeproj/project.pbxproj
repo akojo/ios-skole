@@ -46,6 +46,7 @@
 		1DEA7BD315775F8D0049C6F7 /* appIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA7BCF15775F8D0049C6F7 /* appIcon72.png */; };
 		1DEA7BD415775F8D0049C6F7 /* appIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA7BD015775F8D0049C6F7 /* appIcon114.png */; };
 		1DEA7BD515775F8D0049C6F7 /* appIcon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA7BD115775F8D0049C6F7 /* appIcon144.png */; };
+		1DEA7BDC1577740D0049C6F7 /* DescriptionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7BDB1577740D0049C6F7 /* DescriptionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		1DEA7BCF15775F8D0049C6F7 /* appIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon72.png; path = images/appIcon72.png; sourceTree = "<group>"; };
 		1DEA7BD015775F8D0049C6F7 /* appIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon114.png; path = images/appIcon114.png; sourceTree = "<group>"; };
 		1DEA7BD115775F8D0049C6F7 /* appIcon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon144.png; path = images/appIcon144.png; sourceTree = "<group>"; };
+		1DEA7BDA1577740D0049C6F7 /* DescriptionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewCell.h; sourceTree = "<group>"; };
+		1DEA7BDB1577740D0049C6F7 /* DescriptionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 				1D941B6D15738C8F003D1FDA /* GigFinderDetailViewController.m */,
 				1DEA7B86157754CD0049C6F7 /* EventCell.h */,
 				1DEA7B87157754CD0049C6F7 /* EventCell.m */,
+				1DEA7BDA1577740D0049C6F7 /* DescriptionViewCell.h */,
+				1DEA7BDB1577740D0049C6F7 /* DescriptionViewCell.m */,
 				1DEA7B79157754570049C6F7 /* LastFm */,
 				1DEA7B93157755BC0049C6F7 /* Extensions */,
 				1D941B5815738C8F003D1FDA /* Supporting Files */,
@@ -379,6 +384,7 @@
 				1DEA7B88157754CD0049C6F7 /* EventCell.m in Sources */,
 				1DEA7B98157755CF0049C6F7 /* NSArray+FunctionalExtensions.m in Sources */,
 				1DEA7B99157755CF0049C6F7 /* NSDate+FormattedString.m in Sources */,
+				1DEA7BDC1577740D0049C6F7 /* DescriptionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
