@@ -21,22 +21,29 @@
 		1D941B7715738C8F003D1FDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5115738C8F003D1FDA /* UIKit.framework */; };
 		1D941B7815738C8F003D1FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D941B5315738C8F003D1FDA /* Foundation.framework */; };
 		1D941B8015738C8F003D1FDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B7E15738C8F003D1FDA /* InfoPlist.strings */; };
-		1D941B8315738C8F003D1FDA /* GigFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D941B8215738C8F003D1FDA /* GigFinderTests.m */; };
 		1D941B9215738E02003D1FDA /* appIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9115738E02003D1FDA /* appIcon114.png */; };
 		1D941B9415738E2F003D1FDA /* appIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9315738E2F003D1FDA /* appIcon57.png */; };
 		1D941B9615738E34003D1FDA /* appIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9515738E34003D1FDA /* appIcon72.png */; };
 		1D941B9815738E3A003D1FDA /* appIcon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D941B9715738E3A003D1FDA /* appIcon144.png */; };
+		1DEA7B82157754670049C6F7 /* LastFmDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B7B157754670049C6F7 /* LastFmDataSource.m */; };
+		1DEA7B83157754670049C6F7 /* LastFmEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B7D157754670049C6F7 /* LastFmEvent.m */; };
+		1DEA7B84157754670049C6F7 /* LastFmService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B7F157754670049C6F7 /* LastFmService.m */; };
+		1DEA7B85157754670049C6F7 /* LastFmVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B81157754670049C6F7 /* LastFmVenue.m */; };
+		1DEA7B88157754CD0049C6F7 /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B87157754CD0049C6F7 /* EventCell.m */; };
+		1DEA7B8F157755090049C6F7 /* LastFmServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B8A157755090049C6F7 /* LastFmServiceTest.m */; };
+		1DEA7B90157755090049C6F7 /* MultipleEventsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA7B8B157755090049C6F7 /* MultipleEventsResponse.json */; };
+		1DEA7B91157755090049C6F7 /* NSURLConnectionMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B8D157755090049C6F7 /* NSURLConnectionMock.m */; };
+		1DEA7B92157755090049C6F7 /* SingleEventResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA7B8E157755090049C6F7 /* SingleEventResponse.json */; };
+		1DEA7B98157755CF0049C6F7 /* NSArray+FunctionalExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B95157755CF0049C6F7 /* NSArray+FunctionalExtensions.m */; };
+		1DEA7B99157755CF0049C6F7 /* NSDate+FormattedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B97157755CF0049C6F7 /* NSDate+FormattedString.m */; };
+		1DEA7B9B157756620049C6F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEA7B9A157756620049C6F7 /* CoreLocation.framework */; };
+		1DEA7B9C157756890049C6F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEA7B9A157756620049C6F7 /* CoreLocation.framework */; };
+		1DEA7B9E157757060049C6F7 /* LastFmEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B7D157754670049C6F7 /* LastFmEvent.m */; };
+		1DEA7BA0157757060049C6F7 /* LastFmService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B7F157754670049C6F7 /* LastFmService.m */; };
+		1DEA7BA2157757060049C6F7 /* LastFmVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B81157754670049C6F7 /* LastFmVenue.m */; };
+		1DEA7BA4157757180049C6F7 /* NSArray+FunctionalExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B95157755CF0049C6F7 /* NSArray+FunctionalExtensions.m */; };
+		1DEA7BA6157757180049C6F7 /* NSDate+FormattedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA7B97157755CF0049C6F7 /* NSDate+FormattedString.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1D941B7915738C8F003D1FDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D941B4415738C8F003D1FDA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D941B4C15738C8F003D1FDA;
-			remoteInfo = GigFinder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D941B4D15738C8F003D1FDA /* GigFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GigFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +66,31 @@
 		1D941B7515738C8F003D1FDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1D941B7D15738C8F003D1FDA /* GigFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GigFinderTests-Info.plist"; sourceTree = "<group>"; };
 		1D941B7F15738C8F003D1FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1D941B8115738C8F003D1FDA /* GigFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GigFinderTests.h; sourceTree = "<group>"; };
-		1D941B8215738C8F003D1FDA /* GigFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GigFinderTests.m; sourceTree = "<group>"; };
 		1D941B9115738E02003D1FDA /* appIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon114.png; sourceTree = "<group>"; };
 		1D941B9315738E2F003D1FDA /* appIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon57.png; sourceTree = "<group>"; };
 		1D941B9515738E34003D1FDA /* appIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon72.png; sourceTree = "<group>"; };
 		1D941B9715738E3A003D1FDA /* appIcon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon144.png; sourceTree = "<group>"; };
+		1DEA7B7A157754670049C6F7 /* LastFmDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastFmDataSource.h; path = LastFm/LastFmDataSource.h; sourceTree = "<group>"; };
+		1DEA7B7B157754670049C6F7 /* LastFmDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastFmDataSource.m; path = LastFm/LastFmDataSource.m; sourceTree = "<group>"; };
+		1DEA7B7C157754670049C6F7 /* LastFmEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastFmEvent.h; path = LastFm/LastFmEvent.h; sourceTree = "<group>"; };
+		1DEA7B7D157754670049C6F7 /* LastFmEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastFmEvent.m; path = LastFm/LastFmEvent.m; sourceTree = "<group>"; };
+		1DEA7B7E157754670049C6F7 /* LastFmService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastFmService.h; path = LastFm/LastFmService.h; sourceTree = "<group>"; };
+		1DEA7B7F157754670049C6F7 /* LastFmService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastFmService.m; path = LastFm/LastFmService.m; sourceTree = "<group>"; };
+		1DEA7B80157754670049C6F7 /* LastFmVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastFmVenue.h; path = LastFm/LastFmVenue.h; sourceTree = "<group>"; };
+		1DEA7B81157754670049C6F7 /* LastFmVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastFmVenue.m; path = LastFm/LastFmVenue.m; sourceTree = "<group>"; };
+		1DEA7B86157754CD0049C6F7 /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		1DEA7B87157754CD0049C6F7 /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		1DEA7B89157755090049C6F7 /* LastFmServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastFmServiceTest.h; sourceTree = "<group>"; };
+		1DEA7B8A157755090049C6F7 /* LastFmServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastFmServiceTest.m; sourceTree = "<group>"; };
+		1DEA7B8B157755090049C6F7 /* MultipleEventsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MultipleEventsResponse.json; sourceTree = "<group>"; };
+		1DEA7B8C157755090049C6F7 /* NSURLConnectionMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionMock.h; sourceTree = "<group>"; };
+		1DEA7B8D157755090049C6F7 /* NSURLConnectionMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionMock.m; sourceTree = "<group>"; };
+		1DEA7B8E157755090049C6F7 /* SingleEventResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SingleEventResponse.json; sourceTree = "<group>"; };
+		1DEA7B94157755CF0049C6F7 /* NSArray+FunctionalExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+FunctionalExtensions.h"; path = "extensions/NSArray+FunctionalExtensions.h"; sourceTree = "<group>"; };
+		1DEA7B95157755CF0049C6F7 /* NSArray+FunctionalExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FunctionalExtensions.m"; path = "extensions/NSArray+FunctionalExtensions.m"; sourceTree = "<group>"; };
+		1DEA7B96157755CF0049C6F7 /* NSDate+FormattedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+FormattedString.h"; path = "extensions/NSDate+FormattedString.h"; sourceTree = "<group>"; };
+		1DEA7B97157755CF0049C6F7 /* NSDate+FormattedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FormattedString.m"; path = "extensions/NSDate+FormattedString.m"; sourceTree = "<group>"; };
+		1DEA7B9A157756620049C6F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEA7B9B157756620049C6F7 /* CoreLocation.framework in Frameworks */,
 				1D941B5215738C8F003D1FDA /* UIKit.framework in Frameworks */,
 				1D941B5415738C8F003D1FDA /* Foundation.framework in Frameworks */,
 				1D941B5615738C8F003D1FDA /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEA7B9C157756890049C6F7 /* CoreLocation.framework in Frameworks */,
 				1D941B7615738C8F003D1FDA /* SenTestingKit.framework in Frameworks */,
 				1D941B7715738C8F003D1FDA /* UIKit.framework in Frameworks */,
 				1D941B7815738C8F003D1FDA /* Foundation.framework in Frameworks */,
@@ -94,6 +122,7 @@
 		1D941B4215738C8F003D1FDA = {
 			isa = PBXGroup;
 			children = (
+				1DEA7B9A157756620049C6F7 /* CoreLocation.framework */,
 				1D941B9715738E3A003D1FDA /* appIcon144.png */,
 				1D941B9515738E34003D1FDA /* appIcon72.png */,
 				1D941B9315738E2F003D1FDA /* appIcon57.png */,
@@ -136,6 +165,10 @@
 				1D941B6A15738C8F003D1FDA /* GigFinderMasterViewController.m */,
 				1D941B6C15738C8F003D1FDA /* GigFinderDetailViewController.h */,
 				1D941B6D15738C8F003D1FDA /* GigFinderDetailViewController.m */,
+				1DEA7B86157754CD0049C6F7 /* EventCell.h */,
+				1DEA7B87157754CD0049C6F7 /* EventCell.m */,
+				1DEA7B79157754570049C6F7 /* LastFm */,
+				1DEA7B93157755BC0049C6F7 /* Extensions */,
 				1D941B5815738C8F003D1FDA /* Supporting Files */,
 			);
 			path = GigFinder;
@@ -155,8 +188,12 @@
 		1D941B7B15738C8F003D1FDA /* GigFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D941B8115738C8F003D1FDA /* GigFinderTests.h */,
-				1D941B8215738C8F003D1FDA /* GigFinderTests.m */,
+				1DEA7B89157755090049C6F7 /* LastFmServiceTest.h */,
+				1DEA7B8A157755090049C6F7 /* LastFmServiceTest.m */,
+				1DEA7B8C157755090049C6F7 /* NSURLConnectionMock.h */,
+				1DEA7B8D157755090049C6F7 /* NSURLConnectionMock.m */,
+				1DEA7B8B157755090049C6F7 /* MultipleEventsResponse.json */,
+				1DEA7B8E157755090049C6F7 /* SingleEventResponse.json */,
 				1D941B7C15738C8F003D1FDA /* Supporting Files */,
 			);
 			path = GigFinderTests;
@@ -169,6 +206,32 @@
 				1D941B7E15738C8F003D1FDA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DEA7B79157754570049C6F7 /* LastFm */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA7B7A157754670049C6F7 /* LastFmDataSource.h */,
+				1DEA7B7B157754670049C6F7 /* LastFmDataSource.m */,
+				1DEA7B7C157754670049C6F7 /* LastFmEvent.h */,
+				1DEA7B7D157754670049C6F7 /* LastFmEvent.m */,
+				1DEA7B7E157754670049C6F7 /* LastFmService.h */,
+				1DEA7B7F157754670049C6F7 /* LastFmService.m */,
+				1DEA7B80157754670049C6F7 /* LastFmVenue.h */,
+				1DEA7B81157754670049C6F7 /* LastFmVenue.m */,
+			);
+			name = LastFm;
+			sourceTree = "<group>";
+		};
+		1DEA7B93157755BC0049C6F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA7B94157755CF0049C6F7 /* NSArray+FunctionalExtensions.h */,
+				1DEA7B95157755CF0049C6F7 /* NSArray+FunctionalExtensions.m */,
+				1DEA7B96157755CF0049C6F7 /* NSDate+FormattedString.h */,
+				1DEA7B97157755CF0049C6F7 /* NSDate+FormattedString.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +266,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D941B7A15738C8F003D1FDA /* PBXTargetDependency */,
 			);
 			name = GigFinderTests;
 			productName = GigFinderTests;
@@ -258,6 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D941B8015738C8F003D1FDA /* InfoPlist.strings in Resources */,
+				1DEA7B90157755090049C6F7 /* MultipleEventsResponse.json in Resources */,
+				1DEA7B92157755090049C6F7 /* SingleEventResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +352,13 @@
 				1D941B6215738C8F003D1FDA /* GigFinderAppDelegate.m in Sources */,
 				1D941B6B15738C8F003D1FDA /* GigFinderMasterViewController.m in Sources */,
 				1D941B6E15738C8F003D1FDA /* GigFinderDetailViewController.m in Sources */,
+				1DEA7B82157754670049C6F7 /* LastFmDataSource.m in Sources */,
+				1DEA7B83157754670049C6F7 /* LastFmEvent.m in Sources */,
+				1DEA7B84157754670049C6F7 /* LastFmService.m in Sources */,
+				1DEA7B85157754670049C6F7 /* LastFmVenue.m in Sources */,
+				1DEA7B88157754CD0049C6F7 /* EventCell.m in Sources */,
+				1DEA7B98157755CF0049C6F7 /* NSArray+FunctionalExtensions.m in Sources */,
+				1DEA7B99157755CF0049C6F7 /* NSDate+FormattedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,19 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D941B8315738C8F003D1FDA /* GigFinderTests.m in Sources */,
+				1DEA7BA4157757180049C6F7 /* NSArray+FunctionalExtensions.m in Sources */,
+				1DEA7BA6157757180049C6F7 /* NSDate+FormattedString.m in Sources */,
+				1DEA7B9E157757060049C6F7 /* LastFmEvent.m in Sources */,
+				1DEA7BA0157757060049C6F7 /* LastFmService.m in Sources */,
+				1DEA7BA2157757060049C6F7 /* LastFmVenue.m in Sources */,
+				1DEA7B8F157755090049C6F7 /* LastFmServiceTest.m in Sources */,
+				1DEA7B91157755090049C6F7 /* NSURLConnectionMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1D941B7A15738C8F003D1FDA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D941B4C15738C8F003D1FDA /* GigFinder */;
-			targetProxy = 1D941B7915738C8F003D1FDA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1D941B5A15738C8F003D1FDA /* InfoPlist.strings */ = {
@@ -368,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -388,6 +458,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -426,7 +497,7 @@
 				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
 				INFOPLIST_FILE = "GigFinderTests/GigFinderTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -443,7 +514,7 @@
 				GCC_PREFIX_HEADER = "GigFinder/GigFinder-Prefix.pch";
 				INFOPLIST_FILE = "GigFinderTests/GigFinderTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
